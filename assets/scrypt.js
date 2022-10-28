@@ -27,11 +27,11 @@ function generatePassword() {
     var blank = [];
 
     if (length<8){
-        alert("Password Can Not be Longer Than 128")
+        alert("Password Must Contain At Least 8 Characters")
         return 
     }
     else if (length>128){
-        alert("Password Must Contain At Least 8 Characters")
+        alert("Password Can Not be Longer Than 128")
         return
     }
     if (uppercase){
